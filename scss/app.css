@@ -1,0 +1,97 @@
+#border {
+  border: 2px solid; }
+
+#border2 {
+  border: 2px solid; }
+
+#border3 {
+  border: 2px solid; }
+
+#border4 {
+  padding: inherit; }
+  #border4 img {
+    max-height: 50%; }
+
+#project1 {
+  border-bottom-right-radius: 30px; }
+  #project1 img {
+    max-width: 100%; }
+
+#project2 {
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px; }
+  #project2 img {
+    max-width: 100%; }
+
+#project3 {
+  border: 2px solid; }
+  #project3 img {
+    max-width: 100%; }
+
+#project4 {
+  border: 2px solid; }
+  #project4 img {
+    max-width: 100%; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #33004b; }
+
+li {
+  float: left; }
+
+li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none; }
+
+li a:hover {
+  background-color: #530f73;
+  list-style-type: none; }
+
+#purple1 {
+  background-color: #33004b; }
+  #purple1 img {
+    display: block;
+    margin: 0 auto; }
+
+#white1 {
+  background-color: #ffffff; }
+
+#purple2 {
+  background-color: #33004b; }
+  #purple2 img {
+    display: block;
+    margin: 0 auto; }
+
+#white2 {
+  background-color: #ffffff; }
+
+#purple3 {
+  background-color: #33004b; }
+  #purple3 img {
+    display: block;
+    margin: 0 auto; }
+
+#white3 {
+  background-color: #ffffff; }
+
+body {
+  background-image: url(../img/background-main.png);
+  font: 100% "Arial"; }
+
+h1 {
+  font: 200% "AR BERKLEY";
+  color: #00bff5;
+  text-align: center; }
+
+h2, h3 {
+  text-align: center;
+  color: #00bff5; }
+
+/*# sourceMappingURL=app.css.map */

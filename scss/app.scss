@@ -1,0 +1,126 @@
+@import "typography"; 
+@import "colors";
+@import "border";
+//import "compass/css3/border-radius";
+
+$center-align : center;
+
+#border {
+    border: $border;
+}
+
+#border2 {
+    border: $border;
+}
+
+#border3 {
+    border: $border;
+}
+
+#border4 {
+    padding: inherit;
+    img{max-height: 50%;}
+}
+
+#project1 {
+    img {max-width: 100%;}
+    border-bottom-right-radius: 30px;
+}
+
+#project2 {
+    img {max-width: 100%;}
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#project3 {
+    border: $border;
+    img {max-width: 100%;}
+}
+
+#project4 {
+    border: $border;
+    img { max-width: 100%;}
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: $bkground;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: $white-color;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: $bkground2;
+    list-style-type: none;
+}
+
+#purple1{
+    background-color: $bkground;
+    img {
+    display: block;
+    margin: 0 auto;
+    }
+}
+
+#white1{
+    background-color: $white-color;
+}
+
+#purple2{
+    background-color: $bkground;
+    img {
+    display: block;
+    margin: 0 auto;
+    }
+}
+
+#white2 {
+    background-color: $white-color;
+}
+
+#purple3{
+    background-color: $bkground;
+    img {
+    display: block;
+    margin: 0 auto;
+    }
+}
+
+#white3 {
+    background-color: $white-color;
+}
+
+
+body {
+    background-image: url(../img/background-main.png);
+    font: 100% $regular-font;
+        
+}
+
+h1 {
+    font: 200% $heading-1;
+    color: $heading-color;
+    text-align: $center-align;
+}
+
+h2, h3 {
+    text-align: $center-align;
+    color: $heading-color;
+        
+}
+
+
