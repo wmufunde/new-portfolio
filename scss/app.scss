@@ -51,8 +51,20 @@ ul {
     background-color: $bkground;
 }
 
+#logo {
+    background-color: $bkground;
+    img { background-color: $bkground;
+          margin-right: 20%;
+    }
+}
+
+#nav {
+    background-color: $bkground;
+}
+
 li {
     float: left;
+    font: 200% $heading-1;
 }
 
 li a {
@@ -68,6 +80,22 @@ li a:hover {
     list-style-type: none;
 }
 
+#painting {
+    position: relative; 
+   width: 100%; /* for IE 6 */
+    h1 { 
+   font: 300% $developer;
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+    }
+
+    }
+
+#job-title {
+    color: $job-title;
+}
 #purple1{
     background-color: $bkground;
     img {

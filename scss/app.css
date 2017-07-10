@@ -40,8 +40,18 @@ ul {
   overflow: hidden;
   background-color: #33004b; }
 
+#logo {
+  background-color: #33004b; }
+  #logo img {
+    background-color: #33004b;
+    margin-right: 20%; }
+
+#nav {
+  background-color: #33004b; }
+
 li {
-  float: left; }
+  float: left;
+  font: 200% "AR BERKLEY"; }
 
 li a {
   display: block;
@@ -53,6 +63,20 @@ li a {
 li a:hover {
   background-color: #530f73;
   list-style-type: none; }
+
+#painting {
+  position: relative;
+  width: 100%;
+  /* for IE 6 */ }
+  #painting h1 {
+    font: 300% "Viner Hand ITC";
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%; }
+
+#job-title {
+  color: #f50023; }
 
 #purple1 {
   background-color: #33004b; }
