@@ -1,11 +1,20 @@
+h1 {
+  font-size: 2%; }
+
 #border {
   border: 2px solid; }
+  #border h1 {
+    font-size: 2%; }
 
 #border2 {
   border: 2px solid; }
 
 #border3 {
   border: 2px solid; }
+  #border3 p {
+    font-size: 150%; }
+  #border3 h1 {
+    font-size: 300%; }
 
 #border4 {
   padding: inherit; }
@@ -13,25 +22,43 @@
     max-height: 50%; }
 
 #project1 {
-  border-bottom-right-radius: 30px; }
+  background-color: #33004b; }
   #project1 img {
-    max-width: 100%; }
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 0.5; }
+  #project1 img:hover {
+    opacity: 1.0;
+    background-color: #33004b; }
 
 #project2 {
-  border-bottom-right-radius: 30px;
-  border-bottom-left-radius: 30px; }
+  background-color: #33004b; }
   #project2 img {
-    max-width: 100%; }
+    max-width: 100%;
+    opacity: 0.5; }
+  #project2 img:hover {
+    opacity: 1.0;
+    background-color: #33004b; }
 
 #project3 {
+  background-color: #33004b;
   border: 2px solid; }
   #project3 img {
-    max-width: 100%; }
+    max-width: 100%;
+    opacity: 0.5; }
+  #project3 img:hover {
+    opacity: 1.0;
+    background-color: #33004b; }
 
 #project4 {
+  background-color: #33004b;
   border: 2px solid; }
   #project4 img {
-    max-width: 100%; }
+    max-width: 100%;
+    opacity: 0.5; }
+  #project4 img:hover {
+    opacity: 1.0;
+    background-color: #33004b; }
 
 ul {
   list-style-type: none;
@@ -71,7 +98,7 @@ li a:hover {
   #painting h1 {
     font: 300% "Viner Hand ITC";
     position: absolute;
-    top: 200px;
+    top: 25%;
     left: 0;
     width: 100%; }
 

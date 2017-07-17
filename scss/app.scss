@@ -5,8 +5,14 @@
 
 $center-align : center;
 
+h1 {
+    font-size: 2%;
+}
 #border {
     border: $border;
+    h1 {
+    font-size: 2%;
+}
 }
 
 #border2 {
@@ -15,6 +21,12 @@ $center-align : center;
 
 #border3 {
     border: $border;
+    p {
+        font-size: 150%;
+    }
+    h1 {
+    font-size: 300%;
+}
 }
 
 #border4 {
@@ -23,24 +35,67 @@ $center-align : center;
 }
 
 #project1 {
-    img {max-width: 100%;}
-    border-bottom-right-radius: 30px;
+   background-color: $bkground;
+    img {
+        max-width: 100%;
+        max-height: 100%;
+        opacity: 0.5;
+    }
+    
+    img:hover {
+        opacity: 1.0;
+        background-color: $bkground;
+    
+    //border-bottom-right-radius: 30px;
+}
+                
+    
 }
 
 #project2 {
-    img {max-width: 100%;}
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
+    background-color: $bkground;
+    img {
+        max-width: 100%;
+         opacity: 0.5;
+    }
+   // border-bottom-right-radius: 30px;
+   // border-bottom-left-radius: 30px;
+    
+       img:hover {
+        opacity: 1.0;
+        background-color: $bkground;
+    
+   
+}
 }
 
 #project3 {
+    background-color: $bkground;
     border: $border;
-    img {max-width: 100%;}
+    img {max-width: 100%;
+    opacity: 0.5;
+    }
+    
+      img:hover {
+        opacity: 1.0;
+        background-color: $bkground;
+    
+   
+}
 }
 
 #project4 {
+    background-color: $bkground;
     border: $border;
-    img { max-width: 100%;}
+    img { max-width: 100%;
+    opacity: 0.5;}
+    
+      img:hover {
+        opacity: 1.0;
+        background-color: $bkground;
+    
+   
+}
 }
 
 ul {
@@ -86,9 +141,9 @@ li a:hover {
     h1 { 
    font: 300% $developer;
    position: absolute; 
-   top: 200px; 
+   top: 25%; 
    left: 0; 
-   width: 100%; 
+   width: 100%;
     }
 
     }
