@@ -29,7 +29,7 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 body {
     background-color: #110016;
 /*    background-image: url(/img/index/background-main.png);*/
-	font-family: 'Ubuntu', 'Arial', sans-serif;
+	font-family: 'Philosopher', sans-serif;
     line-height: 1.5;
     color: #ddd;
 }
@@ -68,6 +68,7 @@ a:focus, a:hover {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: oswald;
+/*    font-family: 'Berkshire Swash', cursive;*/
     font-weight: 400;
 }
 
@@ -396,6 +397,8 @@ h1, h2, h3, h4, h5, h6 {
 	border-left: solid 4.2426px #ddd;
 }
 
+
+
 /*=================================================================
 	Our Benefits
 ==================================================================*/
@@ -412,13 +415,15 @@ h1, h2, h3, h4, h5, h6 {
 	margin-right: 20px;
 }
 
-
+#about-me {
+    font-size:20px    
+}
 /*=================================================================
 	Item counter section
 ==================================================================*/
 
 #counter {
-    background-image: url(../img/index/london2.jpg);
+    background-image: url(../img/index/london3.jpg);
     width: 100%;
     padding: 70px 0;
 }
@@ -448,6 +453,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 20px;
 	margin: 0;
 }
+
 
 
 /*=================================================================
@@ -631,7 +637,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #my-skills {
     padding: 70px 0;
-    background-image: url(../img/index/skills-bkground.jpg);
+    background-image: url(../img/index/laptop.jpg);
    
     
 }

@@ -22,3 +22,39 @@
     height: 90px;
     width: 90px;
 }
+
+.myskills img {
+    height: 100px;
+    width: auto;
+}
+
+#cd-timeline p {
+    font-size: 20px;
+    font-family: Philosopher, sans-serif;
+    color: black;
+}
+
+#cd-timeline h1, h2 {
+    font-size: 25px;
+    font-family: Philosopher, sans-serif;
+    font-weight: bold;
+}
+#cd-timeline span {
+    font-size: 20px;
+}
+
+#cd-timeline h3 {
+    font-size: 20px;
+    font-family: Philosopher, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+#cd-timeline {
+    background-image: url(../img/index/london.jpg) no-repeat center center fixed;
+    width: 100%;
+    padding: 70px 0;
+}
+
+#contact h1, h2{
+    text-align: center;
+}
